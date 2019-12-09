@@ -14,3 +14,6 @@ function displayTime() {
 }
 
 window.onload = displayTime()
+
+console.log(getRandomColor())
+
