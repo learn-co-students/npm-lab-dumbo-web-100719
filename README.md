@@ -11,7 +11,7 @@ used in another, which is used in another, and another, and so on...
 Using npm, we download specific packages of code. If those packages have
 dependencies, the dependencies are also downloaded in a recursive manner. For
 the purposes of our own application, however, **we only need to know about the
-node packages _we_ specifically need to get our app working**. We don't need to
+node packages _we_ speccifically need to get our app working**. We don't need to
 worry about what packages _those_ packages need. Why? Because every node package
 includes a `package.json` file that lists out all dependencies. This file
 lets Node know what to download when we run `npm install`. Node will download
