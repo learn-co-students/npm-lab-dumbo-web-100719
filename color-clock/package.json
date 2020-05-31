@@ -1,0 +1,14 @@
+{
+  "name": "practice-package-json",
+  "version": "1.0.0",
+  "description": "practice json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello World!'"
+  },
+  "author": "javone-smith",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
